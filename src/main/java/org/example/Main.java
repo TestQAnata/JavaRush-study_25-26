@@ -13,5 +13,12 @@ public class Main {
             System.out.println("Итерация - " + i);
             i++;
         }
+
+        //Обратный счёт
+        int count = 5;
+                while(count >= 0){
+                    System.out.println("Осталось - " + count);
+                    count--;
+                }
     }
 }
