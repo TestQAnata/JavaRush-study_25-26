@@ -135,6 +135,14 @@ public class Main {
 //            System.out.println(Arrays.toString(copy));
 //        }
             //Иммутабельный (неизменяемый)
+        int[] origin2 = {1, 3, 6, 8, 90, 99};
+        for (int i = 0; i < origin2.length; i++) {
+            System.out.println(origin2[i]);
+        }
+        int [] less = new int[origin2.length -1];
+        for (int i = 0; i < origin2.length; i++) {
+            if (i != 3) less [i] = origin2[i];
+        }
 
         }
     }
