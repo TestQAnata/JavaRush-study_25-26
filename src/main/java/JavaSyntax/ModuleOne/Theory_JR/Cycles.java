@@ -68,6 +68,27 @@ public class Cycles {
 //            System.out.println(i);
 //        }
 
+// Подсчет суммы чисел с использованием цикла while
+//        Scanner console = new Scanner(System.in);//Создаём объект Scanner для чтения данных с консоли
+//        int sum = 0;//в переменной sum будем хранить сумму чисел
+//        while(console.hasNextInt()){//пока в консоль вводят целые числа
+//            int x = console.nextInt();//считываем очередное число в переменную x
+//            sum = sum + x;//добавляем х к сумме чисел(sum)
+//        }
+//        System.out.println(sum);
+
+//Максимум введенных чисел с использованием цикла while
+//        Scanner console = new Scanner(System.in);//создаём объект Scanner для чтения данных с консоли
+//        int max = 0;//в переменной max будем хранить максимум чисел
+//        while(console.hasNextInt()){//пока в консоль вводят целые числа
+//            int x = console.nextInt();//считываем очередное число в переменную х
+//            if(x > max)//Сравниваем х и max. Если x больше max, обновляем максимум
+//                max = x;
+//        }
+//        System.out.println(max);//выводим максимум на экран
+
+
+
 
 
 
