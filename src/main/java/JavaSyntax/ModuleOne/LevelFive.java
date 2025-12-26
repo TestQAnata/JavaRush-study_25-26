@@ -98,34 +98,75 @@ public class LevelFive {
 //Вывести на экран второе по величине целое число после минимального из введенных с клавиатуры.
 // Если таких чисел несколько, то необходимо вывести любое из них.
 //Минимальных чисел тоже может быть несколько.
-        Scanner console = new Scanner(System.in);
-        int min = Integer.MAX_VALUE;// Начинаем с максимально возможного
-        int secondMin = Integer.MAX_VALUE;
-        int count = 0;
-        while (console.hasNextInt()) {
-            int num = console.nextInt();
-            count++;
+//        Scanner console = new Scanner(System.in);
+//        int min = Integer.MAX_VALUE;// Начинаем с максимально возможного
+//        int secondMin = Integer.MAX_VALUE;
+//        int count = 0;
+//        while (console.hasNextInt()) {
+//            int num = console.nextInt();
+//            count++;
+//
+//            if (num < min) {
+//                secondMin = min;// Старый минимум становится вторым минимумом
+//                min = num;// Текущее число становится новым минимумом
+//            } else if (num > min && num < secondMin) {// Число больше минимума, но меньше текущего secondMin
+//                secondMin = num;
+//            }
+//        }
+//            if (count < 2) {
+//                System.out.println("Ошибка: нужно ввести минимум два числа");
+//                return;
+//            }
+//
+//
+//            if (secondMin == Integer.MAX_VALUE){
+//                System.out.println("Все введённые числа одинаковые");
+//            }
+//            else {
+//                System.out.println("Второе минимальное число: " + secondMin);
+//            }
 
-            if (num < min) {
-                secondMin = min;// Старый минимум становится вторым минимумом
-                min = num;// Текущее число становится новым минимумом
-            } else if (num > min && num < secondMin) {// Число больше минимума, но меньше текущего secondMin
-                secondMin = num;
+//9. Напиши программу, в которой с помощью цикла for на экран будут выведены
+// чётные числа от 1 до 15. Каждое значение нужно выводить с новой строки.
+//        for (int i = 1; i <= 15; i++) {
+//            if (i % 2 == 0)
+//            System.out.println(i);
+//        }
+
+//10. В методе main с клавиатуры считывается 3 целых числа: start, end (start <= end), multiple.
+// Допиши программу, чтобы на экран выводилась сумма чисел от start (включительно) до end (не включительно),
+// кратных multiple. Для этого используй цикл for.
+// Подсказка: чтобы перейти к следующей итерации цикла, используй оператор continue.
+//        Scanner scanner = new Scanner(System.in);
+//        int start = scanner.nextInt();
+//        int end = scanner.nextInt();
+//        int multiple = scanner.nextInt();
+//
+//        int sum = 0;
+//        for (int i = start; i < end; i++) {
+//            if (i % multiple != 0){
+//                continue;
+//            }
+//            sum +=i;
+//        }
+//        System.out.println(sum);
+
+
+//11. Давай используем цикл for, чтобы вывести на экран прямоугольный треугольник
+// из восьмёрок со сторонами (катетами) 10 и 10.
+// То есть в первой строке должна быть одна 8, начиная слева,
+// во второй - две и т.д. Пример вывода на экран: 8
+        int tr = 10;
+        for (int i = 0; i < tr ; i++) {
+
+            for (int j = 0; j < tr - i - 1 ; j++) {
+                System.out.print("");
             }
+            for (int j = 0; j < 2 * i + 1; j++) {
+                System.out.print("8");
+            }
+            System.out.println();
         }
-            if (count < 2) {
-                System.out.println("Ошибка: нужно ввести минимум два числа");
-                return;
-            }
-
-
-            if (secondMin == Integer.MAX_VALUE){
-                System.out.println("Все введённые числа одинаковые");
-            }
-            else {
-                System.out.println("Второе минимальное число: " + secondMin);
-            }
-
 
 
 
