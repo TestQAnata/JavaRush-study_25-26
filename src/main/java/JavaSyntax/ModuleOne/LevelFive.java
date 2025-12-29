@@ -156,19 +156,37 @@ public class LevelFive {
 // из восьмёрок со сторонами (катетами) 10 и 10.
 // То есть в первой строке должна быть одна 8, начиная слева,
 // во второй - две и т.д. Пример вывода на экран: 8
-        int tr = 10;
-        for (int i = 0; i < tr ; i++) {
+//        int tr = 10;
+//        for (int i = 0; i < tr ; i++) {
+//
+//            for (int j = 0; j < tr - i - 1 ; j++) {
+//                System.out.print("");
+//            }
+//            for (int j = 0; j < 2 * i + 1; j++) {
+//                System.out.print("8");
+//            }
+//            System.out.println();
+//        }
 
-            for (int j = 0; j < tr - i - 1 ; j++) {
-                System.out.print("");
-            }
-            for (int j = 0; j < 2 * i + 1; j++) {
-                System.out.print("8");
-            }
-            System.out.println();
-        }
-
-
+//12.В этой задаче нужно:
+//Ввести с клавиатуры строку и число number, которое больше 0 и меньше 5.
+//Вывести на экран строку number раз с помощью цикла do-while.
+// Каждое значение нужно вывести с новой строки.
+//Если число number меньше/равно 0 или больше/равно 5,
+// то введенную строку нужно вывести на экран один раз.
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        scanner.nextLine();
+//        String string = scanner.nextLine();
+//
+//        int counter = 0;
+//         do {
+//             System.out.println(string);
+//             counter++;
+//
+//        }
+//         while (counter < number && number > 0 && number < 5);
+//    }
 
     }
 }
