@@ -3,7 +3,10 @@ package JavaSyntax.ModuleOne;
 import java.util.Scanner;
 
 public class LevelSeven {
-    public static int[][] multiArray;
+    public static int[][] array = new int[3][3];//задача 5
+//    public static int[][] array = new int[2][3];//задача 4
+//    public static int[][] multiArray;//задача 2
+//    public static int[][][] multiArray = new int[][][]{{{4, 8, 15}, {16}}, {{23, 42}, {}}, {{1}, {2}, {3}, {4, 5}}};//задача 3
     public static void main(String[] args) {
 //1. Создай треугольный массив, где значение каждого элемента — это сумма его индексов.
 //        int[][] array = new int[10][];
@@ -51,6 +54,50 @@ public class LevelSeven {
 //Требования:
 //•	В классе Solution должна быть публичная статическая переменная multiArray типа int[][][].
 //•	В методе main(String[]) выведи на экран все числа из multiArray.
+//        for (int i = 0; i < multiArray.length; i++) {
+//            for (int j = 0; j < multiArray[i].length; j++) {
+//                for (int k = 0; k < multiArray[i][j].length; k++) {
+//                    System.out.print(multiArray[i][j][k] + " ");
+//                }
+//                System.out.println();
+//            }
+//        }
+
+//4. В классе Solution проинициализируй поле array значением двумерного массива
+// целых чисел размерностью 2х3. В методе main заполни этот массив целыми числами
+// (кроме 0) и выведи на экран.
+
+//        for (int i = 0; i < array.length; i++) {
+//            for (int j = 0; j < array[i].length; j++) {
+//                array[i][j] = 3;
+//                System.out.print(array[i][j] + " ");
+//            }
+//        }
+
+//5. В классе Solution дан двумерный массив целых чисел (поле array) размерностью 3х3.
+// В методе main нужно заполнить построчно этот массив данными с клавиатуры и
+// вывести на экран максимальный элемент массива.
+//        Scanner scanner = new Scanner(System.in);
+//        int max = Integer.MIN_VALUE;
+//
+//        for (int i = 0; i < array.length; i++) {
+//            for (int j = 0; j < array[i].length; j++) {
+//                int num = scanner.nextInt();
+//                array[i][j] = num;
+//                if (num > max)
+//                    max = num;
+//            }
+//        }
+//        System.out.println(max);
+
+//6. В классе Solution дан двумерный массив целых чисел (поле array) размерностью 3х3.
+// В методе main нужно заполнить построчно этот массив данными с клавиатуры,
+// посчитать сумму элементов в каждом столбце и в каждой строке
+// и вывести наименьшую из этих сумм на экран.
+        Scanner scanner = new Scanner(System.in);
+        int min = Integer.MAX_VALUE;
+
+
 
     }
 }
