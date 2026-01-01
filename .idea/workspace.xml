@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58f1a0f-4b73-4890-9aa4-216826f91519" name="Changes" comment="Два уровня_задачи" />
+    <list default="true" id="b58f1a0f-4b73-4890-9aa4-216826f91519" name="Changes" comment="Два уровня_задачи">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaSyntax/ModuleOne/LevelSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaSyntax/ModuleOne/LevelSeven.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,46 +30,46 @@
     &quot;assignee&quot;: &quot;TestQAnata&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/TestQAnata/JavaRush-study_25-26.git",
-    "accountId": "dcfc13bc-5865-4255-9b36-d8130c37d07e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TestQAnata/JavaRush-study_25-26.git&quot;,
+    &quot;accountId&quot;: &quot;dcfc13bc-5865-4255-9b36-d8130c37d07e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2v4k4ZmX0UaBfam8X7rNoeHXqTt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LevelTwo.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Massiv.executor": "Run",
-    "Application.ModuleOne.executor": "Run",
-    "Application.Praktic.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/rh03.mag181/IdeaProjects/Java_rush/src",
-    "onboarding.tips.debug.path": "C:/Users/rh03.mag181/IdeaProjects/Java_rush/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LevelTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Massiv.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ModuleOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Praktic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rh03.mag181/IdeaProjects/Java_rush/src&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/rh03.mag181/IdeaProjects/Java_rush/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="JavaSyntax.ModuleOne" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LevelTwo">
+  <component name="RunManager" selected="Application.Massiv">
     <configuration name="LevelOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaSyntax.ModuleOne.LevelOne" />
       <module name="Java_rush" />
@@ -80,8 +84,9 @@
       </method>
     </configuration>
     <configuration name="LevelTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/ms-11.0.29" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="JavaSyntax.ModuleOne.LevelTwo" />
-      <module name="Java_rush" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaSyntax.ModuleOne.*" />
@@ -106,8 +111,9 @@
       </method>
     </configuration>
     <configuration name="Massiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Massiv" />
-      <module name="Java_rush" />
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sun.rmi.server.Activation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -140,6 +146,13 @@
         <item itemvalue="Application.Praktic" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
