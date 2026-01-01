@@ -77,25 +77,25 @@ public class LevelSeven {
 //5. В классе Solution дан двумерный массив целых чисел (поле array) размерностью 3х3.
 // В методе main нужно заполнить построчно этот массив данными с клавиатуры и
 // вывести на экран максимальный элемент массива.
-//        Scanner scanner = new Scanner(System.in);
-//        int max = Integer.MIN_VALUE;
-//
-//        for (int i = 0; i < array.length; i++) {
-//            for (int j = 0; j < array[i].length; j++) {
-//                int num = scanner.nextInt();
-//                array[i][j] = num;
-//                if (num > max)
-//                    max = num;
-//            }
-//        }
-//        System.out.println(max);
+        Scanner scanner = new Scanner(System.in);
+        int max = Integer.MIN_VALUE;
+
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                int num = scanner.nextInt();
+                array[i][j] = num;
+                if (num > max)
+                    max = num;
+            }
+        }
+        System.out.println(max);
 
 //6. В классе Solution дан двумерный массив целых чисел (поле array) размерностью 3х3.
 // В методе main нужно заполнить построчно этот массив данными с клавиатуры,
 // посчитать сумму элементов в каждом столбце и в каждой строке
 // и вывести наименьшую из этих сумм на экран.
-        Scanner scanner = new Scanner(System.in);
-        int min = Integer.MAX_VALUE;
+//        Scanner scanner = new Scanner(System.in);
+//        int min = Integer.MAX_VALUE;
 
 
 
