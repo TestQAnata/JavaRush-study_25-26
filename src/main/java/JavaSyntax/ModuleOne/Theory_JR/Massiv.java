@@ -157,6 +157,10 @@ public class Massiv {
 
         //многомерные массивы
 //        int [][][][] matrix = new int[2][3][4][5];//многомерный массив размерности 4
+// Объявление массива:
+        //dataType[] arrayName; int[] myArray; Object[] arrayOfObjects; - Желательный способ объявления массива в Java;
+        //dataType arrayName[]; int myArray[]; Object arrayOfObjects[]; - Возможный способ объявления, унаследованный от C/C++;
+
 
 
 
