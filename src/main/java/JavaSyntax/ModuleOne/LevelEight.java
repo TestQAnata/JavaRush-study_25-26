@@ -3,7 +3,7 @@ package JavaSyntax.ModuleOne;
 import java.util.Scanner;
 
 public class LevelEight {
-    public static void main(String[] args) {
+    //public static void main(String[] args) {
 
         //1. Создай public static void printHydrogenInfo() метод, который должен выводить все строки о водороде.
         //Также создай public static void printJavaInfo() метод, который будет выводить все строки об острове Ява.
@@ -156,7 +156,7 @@ public class LevelEight {
         //
         //    }
 
- //7. Перед тобой метод signIn(), который приветствует пользователей сайта. Сейчас он приветствует всех пользователей, а должен только зарегистрированных. Имена всех незарегистрированных пользователей — "user".
+        //7. Перед тобой метод signIn(), который приветствует пользователей сайта. Сейчас он приветствует всех пользователей, а должен только зарегистрированных. Имена всех незарегистрированных пользователей — "user".
         //Добавь проверку имени пользователя в начало метода signIn().
         //Если имя "user", прерви выполнение метода, используя ключевое слово return
 //        public static void signIn(String username){
@@ -243,5 +243,23 @@ public class LevelEight {
 //                System.out.println();
 //            }
 //        }
+    }
+}
 
-//11.
+//11.Метод printSqrt(int[] array) должен выводить корень квадратный для каждого элемента переданного массива.
+//Но этого не происходит из-за конфликта имен переменных. Исправь имена переменных так, чтобы код компилировался.
+//В результате работы программа должна выводить в консоли соответствующую строку для каждого элемента массива.
+
+public static void main(String[] args) {
+    int[] array = {15,64,9,51,42};
+    printSqrt(array);
+}
+
+public static void printSqrt(int[] array) {
+    String elementSqrt1 = "Корень квадратный для числа ";
+    for (int i = 0; i < array.length; i++) {
+        int element = array[i];
+        double elementSqrt = Math.sqrt(element);
+        System.out.println(elementSqrt1 + element + " равен " + elementSqrt);
+    }
+}
