@@ -1,7 +1,7 @@
 package JavaSyntax.ModuleOne.Theory_JR.Function;
 
-public class Variables {
-    public static void main(String[] args) {
+//public class Variables {
+ //   public static void main(String[] args) {
         //1. Локальные переменные - все переменные, которые объявлены внутри методов.
         // Они существуют только в том блоке, в котором она объявлена или точнее:  существует с момента объявления и до конца блока кода, в котором объявлена.
         //Например:
@@ -56,6 +56,5 @@ public class Variables {
         //ClassName.variableName
         //Например:
 
-        
 
-}
+//}
