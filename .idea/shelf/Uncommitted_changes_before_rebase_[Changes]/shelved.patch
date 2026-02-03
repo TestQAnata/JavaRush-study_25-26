@@ -1,0 +1,89 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" project-jdk-name=\"ms-11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 44c80fccda4f77c8c207f9bdd939901b3b3a2e30)
++++ b/.idea/misc.xml	(date 1769846224333)
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="ms-11" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="ms-17" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b58f1a0f-4b73-4890-9aa4-216826f91519\" name=\"Changes\" comment=\"Два уровня_задачи\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;TestQAnata&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;git@github.com:/TestQAnata/JavaRush-study_25-26.git&quot;,\r\n    &quot;accountId&quot;: &quot;cc52efb2-4827-4991-a490-db4607f907c0&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2v4k4ZmX0UaBfam8X7rNoeHXqTt\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.LevelTwo.executor\": \"Run\",\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.Massiv.executor\": \"Run\",\r\n    \"Application.ModuleOne.executor\": \"Run\",\r\n    \"Application.Praktic.executor\": \"Run\",\r\n    \"Application.Solution.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/rh03.mag181/IdeaProjects/Java_rush/src\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/rh03.mag181/IdeaProjects/Java_rush/src/main/java/org/example/Main.java\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"reference.projectsettings.compiler.javacompiler\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"JavaSyntax.ModuleOne\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Massiv\">\r\n    <configuration name=\"LevelOne\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"JavaSyntax.ModuleOne.LevelOne\" />\r\n      <module name=\"Java_rush\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"JavaSyntax.ModuleOne.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LevelTwo\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"$USER_HOME$/.jdks/ms-11.0.29\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"JavaSyntax.ModuleOne.LevelTwo\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"JavaSyntax.ModuleOne.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Lections.Main\" />\r\n      <module name=\"Java_rush\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Lections.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Massiv\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"ms-11\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"sun.rmi.server.Activation\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Praktic\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.javarush.task.task01.task0142.Praktic\" />\r\n      <module name=\"Java_rush\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.javarush.task.task01.task0142.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Massiv\" />\r\n        <item itemvalue=\"Application.LevelTwo\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.LevelOne\" />\r\n        <item itemvalue=\"Application.Praktic\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b58f1a0f-4b73-4890-9aa4-216826f91519\" name=\"Changes\" comment=\"\" />\r\n      <created>1743411545168</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1743411545168</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Restart\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1765891197943</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1765891197943</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Restart\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1765969380532</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1765969380532</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Задача 6\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1765975272678</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1765975272678</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Задача 8\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1765979771509</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1765979771509</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Два уровня_задачи\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1766397259908</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1766397259908</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Restart\" />\r\n    <MESSAGE value=\"Задача 6\" />\r\n    <MESSAGE value=\"Задача 8\" />\r\n    <MESSAGE value=\"Два уровня_задачи\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Два уровня_задачи\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 44c80fccda4f77c8c207f9bdd939901b3b3a2e30)
++++ b/.idea/workspace.xml	(date 1769846224357)
+@@ -30,8 +30,8 @@
+ }</component>
+   <component name="GithubPullRequestsUISettings">{
+   &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;git@github.com:/TestQAnata/JavaRush-study_25-26.git&quot;,
+-    &quot;accountId&quot;: &quot;cc52efb2-4827-4991-a490-db4607f907c0&quot;
++    &quot;url&quot;: &quot;https://github.com/TestQAnata/JavaRush-study_25-26.git&quot;,
++    &quot;accountId&quot;: &quot;7f3e6ac2-6432-4d58-b619-11faf56bf576&quot;
+   }
+ }</component>
+   <component name="ProjectColorInfo">{
+@@ -53,14 +53,17 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+     "RunOnceActivity.git.unshallow": "true",
++    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+     "git-widget-placeholder": "main",
++    "ignore.virus.scanning.warn.message": "true",
+     "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/rh03.mag181/IdeaProjects/Java_rush/src",
++    "last_opened_file_path": "C:/Users/Наталья/IdeaProjects/JavaRush-study_25-26_2",
+     "onboarding.tips.debug.path": "C:/Users/rh03.mag181/IdeaProjects/Java_rush/src/main/java/org/example/Main.java",
+     "project.structure.last.edited": "Project",
+     "project.structure.proportion": "0.0",
+     "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
++    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
++    "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+@@ -149,7 +152,8 @@
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
++        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
++        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -161,6 +165,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1743411545168</updated>
++      <workItem from="1769846157942" duration="21000" />
+     </task>
+     <task id="LOCAL-00001" summary="Restart">
+       <option name="closed" value="true" />
+@@ -204,6 +209,9 @@
+     </task>
+     <option name="localTasksCounter" value="6" />
+     <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
